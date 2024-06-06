@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour Booking System</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="content">
+        <div class="header">
+          <h1>BOOKINGS</h1>
+          <nav>
+            <ul >
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./tours.html">Tours</a></li>
+              <li><a href="./hotels.html">Hotels</a></li>
+              <!-- <li><a href="./admin.html">Admin</a></li> -->
+              <li><a href="#">Login</a></li>
+            </ul>
+          </nav>
+          <div class="search">
+            
+            <input type="text" placeholder="bookings">
+          </div>
+        </div>       
+
+        <div id="bookings" class="booking-container">
+          <h2>COMPLETED BOOKINGS</h2>
+          <div id="booking-list" class="booking-list" >
+            <ul class="booking_list">
+                <!-- Display bookings here -->
+                <li class="Booking">
+                    <h5>User: <br> Pratchett10Rincewind</h5>
+                    <h6>Tour: <br> Chale Island</h6>
+                    <h6>Hotel: <br> PrideInn Hotel Diani</h7>
+                    <p>Date: <br> 03-06-2024</p> 
+                    <button id="home"><a href="./index.html">HOME</a></button>                
+                </li>
+            </ul>
+          </div>
+          
+        </div>
+
+       
+
+        <footer>
+          <p>&copy; 2024 Tour Booking System. All rights reserved.</p>
+        </footer>
+      </div>
+    </div>
+    <script src="./src/booking.js"></script>
+  </body>
+</html>

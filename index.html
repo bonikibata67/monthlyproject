@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour Booking System</title>
+    <link rel="stylesheet" href="./interface.css" />
+    <!-- <link rel="stylesheet" href="./styles.css"> -->
+  </head>
+  <body>
+    <div class="body-container">
+      <header class="header">
+        <h1>Executive Adventures</h1>
+        <nav>
+          <ul>
+            <!-- <li><a href="./Admin.html">ADMIN</a></li> -->
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./tours.html">Tours</a></li>
+            <li><a href="./hotels.html">Hotels</a></li>
+            <li><a href="./bookings.html">Bookings</a></li>
+            <li><a href="./signup.html">Sign up</a></li>
+            <li><a href="./login.html">Login</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="main-container">
+        <div class="left-panel">
+          <!-- Form from users.html -->
+          <div class="booking-form">
+            <h2>MAKE A BOOKING</h2>
+            <form id="booking-form">
+              <label for="tour">Tour:</label>
+              <input type="text" id="tour" name="tour" required />
+              <label for="hotel">Hotel:</label>
+              <input type="text" id="hotel" name="hotel" required />
+              <label for="date">Booking Date:</label>
+              <input type="date" id="date" name="date" required />
+              <button type="submit">add Booking</button>
+              <button id="deletebookingbtn">DELETE</button>
+            </form>
+          </div>
+          <!-- <div class="tour-form">
+            <form id="add-tour-form">
+              <label for="tour-name">Tour Name:</label>
+              <input type="text" id="tour-name" name="name" required />
+              <label for="tour-destination">Destination:</label>
+              <input
+                type="text"
+                id="tour-destination"
+                name="destination"
+                required
+              />
+              <label for="tour-description">Description:</label>
+              <textarea
+                id="tour-description"
+                name="description"
+                rows="4"
+                required
+              ></textarea>
+              <label for="tour-price">Price:</label>
+              <input type="text" id="tour-price" name="price" required />
+              <button type="submit">Add Tour</button>
+            </form>
+          </div>
+
+          <div class="hotel-form">
+            <h2>Add a Hotel</h2>
+            <form id="add-hotel-form">
+              <label for="hotel-name">Hotel Name:</label>
+              <input type="text" id="hotel-name" name="name" required />
+              <label for="hotel-location">Location:</label>
+              <input type="text" id="hotel-location" name="location" required />
+              <label for="hotel-rating">Rating:</label>
+              <input
+                type="number"
+                id="hotel-rating"
+                name="rating"
+                min="1"
+                max="5"
+                step="0.1"
+                required
+              />
+              <label for="hotel-reviews">Reviews:</label>
+              <input
+                type="number"
+                id="hotel-reviews"
+                name="reviews"
+                min="0"
+                required
+              />
+              <button type="submit">Add Hotel</button>
+            </form>
+          </div> -->
+        </div>
+
+        <div class="right-panel">
+          <div class="main-box">
+            <!-- Content from tours.html -->
+            <div class="tour-container">
+              <h1>Featured Tours</h1>
+              <div id="tour-list" class="tour-list"></div>
+            </div>
+
+            <!-- Content from hotels.html -->
+            <div class="hotel-container">
+              <h4>Best Hotels</h4>
+              <div id="hotel-list" class="hotel-list"></div>
+            </div>
+
+            <!-- Content from bookings.html -->
+            <div class="booking-container">
+              <h3>Completed Bookings</h3>
+              <div id="booking-list" class="booking-list"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./src/booking.js"></script>
+    <script src="./src/tour.js"></script>
+    <script src="./src/hotel.js"></script>
+    
+  </body>
+</html>

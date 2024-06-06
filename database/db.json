@@ -1,0 +1,196 @@
+{
+  "Tour": [
+    {
+      "id": "1",
+      "image": "https://cloudfront.safaribookings.com/lib/tanzania/tour/480x240/Kizimkazi_001.jpg",
+      "name": "Lamu Island",
+      "destination": "Lamu",
+      "description": "Lamu Island, which is also a UNESCO World Heritage site, is a popular tourist destination because of its charming archaeological landscape and immaculate white sand beaches. Because of its privacy and discreetness, it also provides the ideal setting for tourists travelling alone, in couples, or in groups.",
+      "price": "$4675"
+    },
+    {
+      "id": "2",
+      "image": "https://cloudfront.safaribookings.com/library/operators/mobile/48550543451_653c47350c_o_2638_60d5c4130c880.480x240-27.jpg",
+      "name": "Buffalo springs National Park",
+      "destination": "Isiolo",
+      "description": "Buffalo springs is an open protected land where variety of animals can be spotted on clear savannah grassland such as the rare northern species of reticulated giraffes, vulturine guinea fowls, Gravy's zebras Somali Ostriches, beisa Oryx and gerenus all these are unique species in the region.",
+      "price": "$1456"
+    },
+    {
+      "id": "3",
+      "image": "https://www.kenyatourism.in/images/wildlife-in-masai-mara-kenya.jpg",
+      "name": "Masai Mara",
+      "destination": "Narok",
+      "description": "The Masai Mara is renowned for its 'Big 5' safaris, featuring lion, leopard, rhinoceros, elephant, and buffalo. This reserve provides unparalleled opportunities to witness these majestic creatures in their natural habitat.",
+      "price": "$5678"
+    },
+    {
+      "id": "4",
+      "image": "https://www.kenyatourism.in/images/Elephant-Bedroom-Camp-Samburu-Game-Reserve.jpg",
+      "name": "Samburu Game Reserve",
+      "destination": "Samburu",
+      "description": "The reserve is reach in wildlife with fame for abundance in rare northern specialist species such as the Grevy Zebra, Somali Ostrich, Reticulated Giraffe, Gerenuk and the Beisa Oryx",
+      "price": "$2893"
+    }
+    
+  ],
+  "Hotel": [
+    {
+      "id": "1",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/77/d2/ce/diani-room.jpg?w=300&h=-1&s=1",
+      "name": "PrideInn Hotel Diani",
+      "location": "Diani",
+      "ratings": 5,
+      "reviews": 245
+    },
+    {
+      "id": "2",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/a8/f6/23/searenity-beach-villa.jpg?w=300&h=-1&s=1",
+      "name": "Searenity Beach Villa",
+      "location": "Diani Beach",
+      "ratings": 4,
+      "reviews": 60
+    },
+    {
+      "id": "3",
+      "image": "https://www.kenyatourism.in/images/tent-interior-lerai-safari-camp-masai-mara.jpeg",
+      "name": "Safari camp",
+      "location": "Masai-Mara",
+      "ratings": 3.5,
+      "reviews": 500
+    },
+    {
+      "id": "4",
+      "image": "https://www.kenyatourism.in/images/samburu-sopa-lodge-swimming-pool.jpg",
+      "name": "Samburu Sopa Lodge",
+      "location": "Samburu",
+      "ratings": 4,
+      "reviews": 90
+    },
+    {
+      "id": "5",
+      "image": "https://www.kenyatourism.in/images/honeymoon-tent-mara-leisure-camp-masai-mara.jpg",
+      "name": "Honeymoon tent mara leisure camp",
+      "location": "Masai-mara",
+      "ratings": 3,
+      "reviews": 346
+    }
+  ],
+  "User": [
+    {
+      "id": "1",
+      "username": "Tolkien1Frodo",
+      "email": "JRR1@gmail.com",
+      "password": "Frodo1."
+    },
+    {
+      "id": "6",
+      "username": "admin",
+      "email": "admin@admin",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "username": "Martin2Jon",
+      "email": "George2@gmail.com",
+      "password": "Jon2."
+    },
+    {
+      "id": "3",
+      "username": "Rowling3Harry",
+      "email": "JK3@gmail.com",
+      "password": "Harry3."
+    },
+    {
+      "id": "4",
+      "username": "Jordan4Rand",
+      "email": "Robert4@gmail.com",
+      "password": "Rand4."
+    },
+    {
+      "id": "5",
+      "username": "Sanderson5Kaladin",
+      "email": "Brandon5@gmail.com",
+      "password": "Kaladin5."
+    },
+    {
+      "id": "6",
+      "username": "Hobb6Fitz",
+      "email": "Robin6@gmail.com",
+      "password": "Fitz6."
+    },
+    {
+      "id": "7",
+      "username": "LeGuin7Ged",
+      "email": "Ursula7@gmail.com",
+      "password": "Get6."
+    },
+    {
+      "id": "8",
+      "username": "Rothfuss8Kvothe",
+      "email": "Patrick8@gmail.com",
+      "password": "Kvothe8."
+    },
+    {
+      "id": "9",
+      "username": "Gaiman9Shadow",
+      "email": "Neil9@gmail.com",
+      "password": "Shadow8."
+    },
+    {
+      "id": "10",
+      "username": "Pratchett10Rincewind",
+      "email": "Terry10@gmail.com",
+      "password": "Frodo1."
+    },
+    {
+      "id": "8e75",
+      "username": "boniface.karanja",
+      "email": "bonikibata67@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "d4a4",
+      "username": "antony.kkkk",
+      "email": "bonikibata67@gmail.com",
+      "password": "1234567"
+    }
+  ],
+  "Booking": [
+    {
+      "id": "1",
+      "user": "Pratchett10Rincewind",
+      "tour": "Chale Island",
+      "hotel": "PrideInn Hotel Diani",
+      "booking date": "03-06-2024"
+    },
+    {
+      "id": "2",
+      "user": "Rothfuss8Kvothe",
+      "tour": "Samburu Game Reserve",
+      "hotel": "Samburu Sopa Lodge",
+      "bookingdate": "24-01-2024"
+    },
+    {
+      "id": "3",
+      "user": "Gaiman9Shadow",
+      "tour": "Masai Mara",
+      "hotel": "Safari camp",
+      "bookingdate": "13-02-2024"
+    },
+    {
+      "id": "4",
+      "user": "Hobb6Fitz",
+      "tour": "Amboseli National Park",
+      "hotel": "Sentrim Amboseli Lodge",
+      "bookingdate": "05-03-2024"
+    },
+    {
+      "id": "5",
+      "user": "Sanderson5Kaladin",
+      "tour": "Tsavo East National Park",
+      "hotel": "Red Elephant Safari Lodge",
+      "bookingdate": "06-04-2024"
+    }
+  ]
+}

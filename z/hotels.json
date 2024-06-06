@@ -1,0 +1,113 @@
+{
+    "Hotel":[
+        {
+            "id": 1,
+            "image":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/77/d2/ce/diani-room.jpg?w=300&h=-1&s=1",
+            "name":"PrideInn Hotel Diani",
+            "location":"Diani",
+            "ratings":5,
+            "reviews":245
+            
+        },
+        {
+            "id": 2,
+            "image":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/a8/f6/23/searenity-beach-villa.jpg?w=300&h=-1&s=1",
+            "name":"Searenity Beach Villa",
+            "location":"Diani Beach",
+            "ratings":4,
+            "reviews":60
+            
+        },
+        {
+            "id": 3,
+            "image":"https://www.kenyatourism.in/images/tent-interior-lerai-safari-camp-masai-mara.jpeg",
+            "name":"Safari camp",
+            "location":"Masai-Mara",
+            "ratings":3.5,
+            "reviews":500
+            
+        },
+        {
+            "id": 4,
+            "image":"https://www.kenyatourism.in/images/samburu-sopa-lodge-swimming-pool.jpg",
+            "name":"Samburu Sopa Lodge",
+            "location":"Samburu",
+            "ratings":4,
+            "reviews":90
+            
+        },
+        {
+            "id": 5,
+            "image":"https://www.kenyatourism.in/images/honeymoon-tent-mara-leisure-camp-masai-mara.jpg",
+            "name":"Honeymoon tent mara leisure camp",
+            "location":"Masai-mara",
+            "ratings":3,
+            "reviews":346
+            
+        },
+        {
+            "id": 6,
+            "image":"https://www.kenyatourism.in/images/Sarova-Mara-Game-Camp-Swimming-Pool.jpg",
+            "name":"sarova Hotel",
+            "location":"Masai-Mara",
+            "ratings":4,
+            "reviews":146
+           
+        },
+        {
+            "id": 7,
+            "image":"https://cloudfront.safaribookings.com/accommodations/photos/thumbs/321_16114943059345_citymax1.jpg",
+            "name":"city Max",
+            "location":"Nakuru",
+            "ratings":5,
+            "reviews":364
+           
+        },
+        {
+            "id": 8,
+            "image":"https://cloudfront.safaribookings.com/accommodations/photos/thumbs/0_16876288645135_rooms-view-from-outside__1_.jpg",
+            "name":"Leisure Apex Resort",
+            "location":"Nakuru",
+            "ratings":3,
+            "reviews":258
+           
+        },
+        {
+            "id": 9,
+            "image":"https://cloudfront.safaribookings.com/accommodations/photos/thumbs/2814_16125480606712_red1.jpg",
+            "name":"Red Elephant Safari Lodge",
+            "location":"Tsavo",
+            "ratings":4,
+            "reviews":567
+           
+        },
+        {
+            "id": 10,
+            "image":"https://cloudfront.safaribookings.com/accommodations/photos/thumbs/0_16923780563746_118865072_3358718790840596_2647317309191203795_n.jpg",
+            "name":"Eseriani Resort",
+            "location":"Nakuru",
+            "ratings":4,
+            "reviews":674
+           
+        },
+        {
+            "id": 11,
+            "image":"https://cloudfront.safaribookings.com/accommodations/photos/thumbs/585_16268702012835_amb7.jpeg",
+            "name":"Sentrim Amboseli Lodge",
+            "location":"Amboseli",
+            "ratings":3.5,
+            "reviews":783
+           
+        },
+        {
+            "id": 6,
+            "image":"https://cloudfront.safaribookings.com/accommodations/photos/thumbs/503_16115133682306_stanley2.jpg",
+            "name":"Sarova Stanely Hotel",
+            "location":"Nairobi",
+            "ratings":4.5,
+            "reviews":983
+           
+        }               
+        
+    ]
+}

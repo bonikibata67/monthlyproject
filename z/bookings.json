@@ -1,0 +1,39 @@
+{
+    "Booking":[
+        {
+        "id": ,
+        "user":"",
+        "tour":"",
+        "hotel":"",
+        "booking date":""
+        },
+        {
+            "id": ,
+            "user":"",
+            "tour":"",
+            "hotel":"",
+            "booking date":""
+        },
+        {
+            "id": ,
+            "user":"",
+            "tour":"",
+            "hotel":"",
+            "booking date":""
+        },
+        {
+            "id": ,
+            "user":"",
+            "tour":"",
+            "hotel":"",
+            "bookingdate":""
+        },
+        {
+            "id": ,
+            "user":"",
+            "tour":"",
+            "hotel":"",
+            "booking date":""
+        }
+    ]
+}

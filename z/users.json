@@ -1,0 +1,54 @@
+{
+  "User": [
+    {
+      "id": 1,
+      "username": "Tolkien1Frodo",
+      "email": "JRR1@gmail.com"
+    },
+    {
+      "id": 2,
+      "username": "Martin2Jon",
+      "email": "George2@gmail.com"
+    },
+    {
+      "id": 3,
+      "username": "Rowling3Harry",
+      "email": "JK3@gmail.com"
+    },
+    {
+      "id": 4,
+      "username": "Jordan4Rand",
+      "email": "Robert4@gmail.com"
+    },
+    {
+      "id": 5,
+      "username": "Sanderson5Kaladin",
+      "email": "Brandon5@gmail.com"
+    },
+    {
+      "id": 6,
+      "username": "Hobb6Fitz",
+      "email": "Robin6@gmail.com"
+    },
+    {
+      "id": 7,
+      "username": "LeGuin7Ged",
+      "email": "Ursula7@gmail.com"
+    },
+    {
+      "id": 8,
+      "username": "Rothfuss8Kvothe",
+      "email": "Patrick8@gmail.com"
+    },
+    {
+      "id": 9,
+      "username": "Gaiman9Shadow",
+      "email": "Neil9@gmail.com"
+    },
+    {
+      "id": 10,
+      "username": "Pratchett10Rincewind",
+      "email": "Terry10@gmail.com"
+    }
+  ]
+}

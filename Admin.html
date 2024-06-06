@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Booking Interface</title>
+    <link rel="stylesheet" href="./user.css">
+    <link rel="stylesheet" href="interface.css">
+</head>
+<body>
+    <div class="user-interface">
+        <div class="content">
+            <div class="header">
+                <h1>Welcome to Tour Booking System</h1>
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./tours.html">Tours</a></li>
+                        <li><a href="./hotels.html">Hotels</a></li>
+                        <!-- <li><a href="./bookings.html">Bookings</a></li> -->
+                        <!-- Display current user here -->
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="booking-form">
+                <h2>Book a Tour or Hotel</h2>
+                <form id="booking-form">
+                    <label for="tour">Tour:</label>
+                    <input type="text" id="tour" name="tour" required>
+                    <label for="hotel">Hotel:</label>
+                    <input type="text" id="hotel" name="hotel" required>
+                    <label for="date">Booking Date:</label>
+                    <input type="date" id="date" name="date" required>
+                    <button type="submit">Book</button>
+                    <button id="deletebookingbtn">DELETE</button>
+                </form>
+            </div>
+            <form id="add-tour-form">
+                <label for="tour-name">Tour Name:</label>
+                <input type="text" id="tour-name" name="name" required>
+                <label for="tour-destination">Destination:</label>
+                <input type="text" id="tour-destination" name="destination" required>
+                <label for="tour-description">Description:</label>
+                <textarea id="tour-description" name="description" rows="4" required></textarea>
+                <label for="tour-price">Price:</label>
+                <input type="text" id="tour-price" name="price" required>
+                <label for="tour-image-url">Image URL:</label>
+                <input type="text" id="tour-image-url" name="image" required>
+                <button type="submit">Add Tour</button>
+                <button type="submit"id="deletetourbtn">DELETE</button>
+                
+            </form>
+            
+            <div class="add-hotel-form">
+                <h2>Add a Hotel</h2>
+                <form id="add-hotel-form">
+                    <label for="hotel-name">Hotel Name:</label>
+                    <input type="text" id="hotel-name" name="name" required>
+                    <label for="hotel-location">Location:</label>
+                    <input type="text" id="hotel-location" name="location" required>
+                    <label for="hotel-rating">Rating:</label>
+                    <input type="number" id="hotel-rating" name="rating" min="1" max="5" step="0.1" required>
+                    <label for="hotel-reviews">Reviews:</label>
+                    <input type="number" id="hotel-reviews" name="reviews" min="0" required>
+                    <label for="hotel-image-url">Image URL:</label>
+                    <input type="text" id="hotel-image-url" name="image" required>
+                    <button type="submit">Add Hotel</button>
+                    <button type="submit" id="deletehotelbtn">DELETE</button>
+                    
+                </form>
+            </div>
+            
+
+            <footer>
+                <p>&copy; 2024 Tour Booking System. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+    <script src="./src/booking.js"></script>
+    <script src="./src/tour.js"></script>
+    <script src="./src/hotel.js"></script>
+</body>
+</html>
+

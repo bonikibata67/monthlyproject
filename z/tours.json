@@ -1,0 +1,101 @@
+{
+  "Tour": [
+    {
+      "id": 12,
+      "image": "https://www.kenyatourism.in/images/lesser-flamingo-in-lake-amboseli.jpg",
+      "name": "Nairobi national park",
+      "destination": "Nairobi",
+      "description": "Nairobi National Park, just a short drive from the city center, offers a unique safari experience with its expansive grass plains and stunning city skyline backdrop. Here, visitors can encounter a diverse array of wildlife, including endangered species like the black rhino, as well as lions, leopards, giraffes, and over 400 species of birds.",
+      "price": "$4667"
+    },
+    {
+      "id": 11,
+      "image": "https://www.kenyatourism.in/images/the-sands-chale-island-at-diani-beach-kenya.jpg",
+      "name": "Chale Island",
+      "destination": "Diani",
+      "description": "Diani Beach is everything that comes to mind when you think of a tropical paradise - rolling white sands perfect for sunbathing, crystal clear waters perfect for snorkelling, and an abundance of wildlife to discover.Perfect for everyone from families to couples, visitors choose to head to Diani for a few days at the end of a safari in Kenya, but it's great as a standalone getaway too. ",
+      "price": "$3456"
+    },
+    {
+      "id": 3,
+      "image": "https://www.kenyatourism.in/images/wildlife-in-masai-mara-kenya.jpg",
+      "name": "Masai Mara",
+      "destination": "Narok",
+      "description": "The Masai Mara is renowned for its 'Big 5' safaris, featuring lion, leopard, rhinoceros, elephant, and buffalo. This reserve provides unparalleled opportunities to witness these majestic creatures in their natural habitat.",
+      "price": "$5678"
+    },
+    {
+      "id": 4,
+      "image": "https://www.kenyatourism.in/images/Elephant-Bedroom-Camp-Samburu-Game-Reserve.jpg",
+      "name": "Samburu Game Reserve",
+      "destination": "Samburu",
+      "description": "The reserve is reach in wildlife with fame for abundance in rare northern specialist species such as the Grevy Zebra, Somali Ostrich, Reticulated Giraffe, Gerenuk and the Beisa Oryx",
+      "price": "$2893"
+    },
+    {
+      "id": 5,
+      "image": "https://www.kenyatourism.in/images/reticulated-giraffes-in-samburu.jpg",
+      "name": "Tsavo East National Park",
+      "destination": "Taita-Taveta",
+      "description": "Spanning 13,747 square kilometres of pristine wilderness, it is also one of the most extensive protected areas in Kenya and has more biodiversity than any other park globally, as it marks the meeting point between northern and southern wildlife.",
+      "price": "$5678"
+    },
+    {
+      "id": 6,
+      "image": "https://cloudfront.safaribookings.com/lib/tanzania/tour/480x240/Central_Serengeti_National_Park_017.jpg",
+      "name": "Tsavo West National Park",
+      "destination": "Taita-Taveta",
+      "description": "Tsavo West offers some of the most magnificent game viewing in the world and attractions include elephant, rhino, Hippos, lions, cheetah, leopards, Buffalos, diverse plant and bird species including the threatened corncrake and near threatened Basra Reed Warbler.",
+      "price": "$4567"
+    },
+    {
+      "id": 7,
+      "image": "https://cloudfront.safaribookings.com/lib/kenya/tour/480x240/Masai_Mara_National_Reserve_086.jpg",
+      "name": "Aberdare national park",
+      "destination": "Nyeri",
+      "description": "Aberdare national park is a home to large numbers of wildlife species hence ranking it among the best destinations to travel to while on an adventurous safari. Visiting within a game park gives you chances to sight see at the big five animals which include; lions, buffalos, African elephants, rhinos and leopards.",
+      "price": "$3564"
+    },
+    {
+      "id": 8,
+      "image": "https://cloudfront.safaribookings.com/lib/tanzania/tour/480x240/Nyerere_National_Park_013.jpg",
+      "name": "Meru National Park",
+      "destination": "Meru",
+      "description": "The Complete Wilderness” Marvelous, remote, rugged and prominently unspoilt, Meru sits intact in a wilderness less visited, yet surrounded by undiluted natural beauty. It is wild and beautiful, straddling the equator and bisected by 13 rivers and numerous mountain-fed streams.",
+      "price": "$3562"
+    },
+    {
+      "id": 9,
+      "image": "https://cloudfront.safaribookings.com/library/operators/mobile/untitled-38_2506_6544b35aa37ee.480x240-27.jpg",
+      "name": "Amboseli National Park",
+      "destination": "Kajiado",
+      "description": "The Park is famous for being the best place in the world to get close to free-ranging elephants and view Mount Kilimanjaro, the highest free-standing mountain in the world. ",
+      "price": "$2896"
+    },
+    {
+      "id": 10,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSso5x5e4nWC0vLJd19VpZYaChx1AeJbMnUysrbyUOVd9QVQsTrqv63eUkAA&s",
+      "name": "Mt Kenya National Park",
+      "destination": "Nanyuki",
+      "description": "Mt. Kenya National Park is well known for its exceptional biodiversity and stunning natural beauty. Mount Kenya, the highest peak in the nation and the second highest in Africa is one of the park's most well-known features. Around the world, hikers and mountain climbers are drawn to this imposing summit.",
+      "price": "$3276"
+    },
+    {
+      "id": 2,
+      "image": "https://cloudfront.safaribookings.com/library/operators/mobile/48550543451_653c47350c_o_2638_60d5c4130c880.480x240-27.jpg",
+      "name": "Buffalo springs National Park",
+      "destination": "Isiolo",
+      "description": "Buffalo springs is an open protected land where variety of animals can be spotted on clear savannah grassland such as the rare northern species of reticulated giraffes, vulturine guinea fowls, Gravy's zebras Somali Ostriches, beisa Oryx and gerenus all these are unique species in the region.",
+      "price": "$1456"
+    },
+    {
+      "id": 1,
+      "image": "https://cloudfront.safaribookings.com/lib/tanzania/tour/480x240/Kizimkazi_001.jpg",
+      "name": "Lamu Island",
+      "destination": "Lamu",
+      "description": "Lamu Island, which is also a UNESCO World Heritage site, is a popular tourist destination because of its charming archaeological landscape and immaculate white sand beaches. Because of its privacy and discreetness, it also provides the ideal setting for tourists travelling alone, in couples, or in groups.",
+      "price": "$4675"
+    }
+    
+  ]
+}
